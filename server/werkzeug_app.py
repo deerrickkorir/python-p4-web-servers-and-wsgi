@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
-from werkzeug.wrapper import Request, Response
+from werkzeug.wrappers import Request, Response
+
 
 @Request.application
 def application(request):
